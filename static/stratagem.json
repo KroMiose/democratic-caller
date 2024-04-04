@@ -18,7 +18,7 @@
         "id": "f408bbf833b09f18898efa609a00046b",
         "name": "SoS Beacon",
         "name_zh": "S.O.S求援信标",
-        "icon": "\thttps://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
+        "icon": "https://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
         "short_name_zh": "S.O.S求援信标",
         "short_code": "wsdw",
         "spell_seq": [
@@ -32,7 +32,7 @@
         "id": "30a410d7775acfdb7f0f828e7ee6da91",
         "name": "Hellbomb",
         "name_zh": "地狱火炸弹",
-        "icon": "\thttps://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
+        "icon": "https://helldivers.wiki.gg/images/a/a0/Hellbomb_Stratagem_Icon.png",
         "short_name_zh": "地狱火炸弹",
         "short_code": "swaswdsw",
         "spell_seq": [
@@ -50,7 +50,7 @@
         "id": "c8972ad2138142019629f1396e68dbad",
         "name": "MG-43 Machine Gun",
         "name_zh": "MG-43 机枪",
-        "icon": "https://helldivers.wiki.gg/images/thumb/e/e0/Machine_Gun_Stratagem_Icon.png/50px-Machine_Gun_Stratagem_Icon.png",
+        "icon": "https://helldivers.wiki.gg/images/e/e0/Machine_Gun_Stratagem_Icon.png",
         "short_name_zh": "机枪",
         "short_code": "saswd",
         "spell_seq": [
@@ -481,7 +481,7 @@
         "id": "dba4ef7b3fa3c23cc3bf4c2978a363d7",
         "name": "E/MG-101 HMG Emplacement",
         "name_zh": "重机枪部署支架",
-        "icon": "https://helldivers.wiki.gg/images/e/e4/Shield_Generator_Relay_Stratagem_Icon.png",
+        "icon": "https://helldivers.wiki.gg/images/0/03/HMG_Emplacement_Stratagem_Icon.png",
         "short_name_zh": "重机枪部署支架",
         "short_code": "swadda",
         "spell_seq": [

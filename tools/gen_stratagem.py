@@ -26,21 +26,21 @@ STRATAGEM_LIST: List[dict] = [
         name_zh="S.O.S求援信标",
         short_name_zh="S.O.S求援信标",
         short_code="wsdw",
-        icon="	https://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
+        icon="https://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
     ),
     g(
         name="Hellbomb",
         name_zh="地狱火炸弹",
         short_name_zh="地狱火炸弹",
         short_code="swaswdsw",
-        icon="	https://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
+        icon="https://helldivers.wiki.gg/images/a/a0/Hellbomb_Stratagem_Icon.png",
     ),
     g(
         name="MG-43 Machine Gun",
         name_zh="MG-43 机枪",
         short_name_zh="机枪",
         short_code="saswd",
-        icon="https://helldivers.wiki.gg/images/thumb/e/e0/Machine_Gun_Stratagem_Icon.png/50px-Machine_Gun_Stratagem_Icon.png",
+        icon="https://helldivers.wiki.gg/images/e/e0/Machine_Gun_Stratagem_Icon.png",
     ),
     g(
         name="APW-1 Anti-Materiel Rifle",
@@ -243,7 +243,7 @@ STRATAGEM_LIST: List[dict] = [
         name_zh="重机枪部署支架",
         short_name_zh="重机枪部署支架",
         short_code="swadda",
-        icon="https://helldivers.wiki.gg/images/e/e4/Shield_Generator_Relay_Stratagem_Icon.png",
+        icon="https://helldivers.wiki.gg/images/0/03/HMG_Emplacement_Stratagem_Icon.png",
     ),
     g(
         name="FX-12 Shield Generator Relay",
