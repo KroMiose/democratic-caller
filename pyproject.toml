@@ -22,6 +22,7 @@ pywin32 = {version = "^306", source = "tsinghua"}
 
 [tool.poetry.scripts]
 app = "app:main"
+build = "tools.build:main"
 gen = "tools.gen_stratagem:main"
 
 

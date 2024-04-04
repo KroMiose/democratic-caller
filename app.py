@@ -5,10 +5,12 @@ from pathlib import Path
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
 from src.api import api
 from src.logger import logger
+from src.utils.ip_utils import get_local_lan_ip
 
 app = FastAPI(
     title="FastAPI Quickstart",
@@ -25,6 +27,11 @@ app.add_middleware(
 )
 
 
+@app.get("/")
+def _():
+    return HTMLResponse(Path("static/index.html").read_text(encoding="utf-8"))
+
+
 app.include_router(api, prefix="/api", tags=["API"])
 
 Path("static").mkdir(parents=True, exist_ok=True)
@@ -32,7 +39,9 @@ app.mount("/", StaticFiles(directory="static"), name="static")
 
 
 async def startup_event():
-    logger.info("服务启动成功")
+    lan_ip_address = get_local_lan_ip()
+    logger.success("超级地球战术支援服务启动成功")
+    logger.info(f"资源申请面板地址: http://{lan_ip_address}:52380")
 
 
 async def stop_event():
