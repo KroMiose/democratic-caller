@@ -6,7 +6,7 @@ from pathlib import Path
 def main():
     print("开始构建...")
     print(
-        '正在删除旧的 build, dist 文件夹及其子文件夹... 如果出现提示 "目标 dist\static 是文件名?" 请输入 "D" 继续...',
+        '正在删除旧的 build, dist 文件夹及其子文件夹... 如果出现提示 "目标 dist\\static 是文件名?" 请输入 "D" 继续...',
     )
 
     # 删除旧的 build, dist 文件夹及其子文件夹
