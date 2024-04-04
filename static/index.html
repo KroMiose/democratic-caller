@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>战备呼叫终端</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1e1e1e;
+        color: #ffffff;
+      }
+
+      .container {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #2a2a2a;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-gap: 20px;
+      }
+
+      .card {
+        background-color: #3a3a3a;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .card img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+      }
+
+      .card:hover {
+        background-color: #4a4a4a;
+      }
+
+      @media screen and (min-width: 768px) {
+        .grid {
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+
+        .card {
+          padding: 30px;
+        }
+
+        .card img {
+          width: 60px;
+          height: 60px;
+          margin-bottom: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>超级地球战备资源库</h1>
+      <div class="grid" id="resourceGrid">
+        <!-- Resources will be dynamically added here -->
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("/api/stratagems")
+          .then((response) => response.json())
+          .then((data) => {
+            const resourceGrid = document.getElementById("resourceGrid");
+            data.data.forEach((resource) => {
+              const card = document.createElement("div");
+              card.classList.add("card");
+              card.setAttribute("data-id", resource.id);
+              card.addEventListener("click", function () {
+                callStratagem(resource.id);
+              });
+              const icon = document.createElement("img");
+              icon.src = resource.icon;
+              icon.alt = resource.name_zh;
+              const name = document.createElement("div");
+              name.textContent = resource.short_name_zh;
+              card.appendChild(icon);
+              card.appendChild(name);
+              resourceGrid.appendChild(card);
+            });
+          })
+          .catch((error) => console.error("Error fetching resources:", error));
+
+        function callStratagem(id) {
+          fetch(`/api/call/${id}`)
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.status === "ok") {
+                // alert("呼叫战术支持成功！");
+              } else {
+                alert("呼叫战术支持失败：" + data.msg);
+              }
+            })
+            .catch((error) => console.error("Error calling stratagem:", error));
+        }
+      });
+    </script>
+  </body>
+</html>

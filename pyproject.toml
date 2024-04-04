@@ -1,0 +1,89 @@
+[tool.poetry]
+name = "democratic-caller"
+version = "0.1.0"
+description = "民主支援呼叫终端"
+authors = ["KroMiose <li_xiangff@163.com>"]
+readme = "README.md"
+packages = [{ include = "src" }, { include = "tools" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.10, <3.12"
+miose-toolkit-common = "^0.1.2"
+miose-toolkit-logger = "^0.0.6"
+yarl = "^1.9.4"
+uvicorn = "^0.29.0"
+fastapi = {extras = ["all"], version = "^0.110.1"}
+pyinstaller = {version = "^6.5.0", source = "tsinghua"}
+pyautogui = {version = "^0.9.54", source = "tsinghua"}
+keyboard = {version = "^0.13.5", source = "tsinghua"}
+pywin32 = {version = "^306", source = "tsinghua"}
+
+
+[tool.poetry.scripts]
+app = "app:main"
+gen = "tools.gen_stratagem:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+
+# 清华源安装的 FastAPI 不完整，缺少中间件等模块，使用 `poetry add xxx --source tsinghua` 来指定使用源
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+priority = "primary"
+
+
+[tool.ruff]
+extend-exclude = []
+ignore = [
+    "E402",
+    "E501",
+    "E722",
+    "B008",
+    "B905",
+    "F401",
+    "TID252",
+    "TRY002",
+    "TRY003",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "RUF006",
+    "RUF012",
+    "RUF100",
+    "PGH003",
+    "N801",
+    "A003",
+]
+select = [
+    "F",
+    "E",
+    "I",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "ISC",
+    "PIE",
+    "PYI",
+    "Q",
+    "RSE",
+    "RET",
+    "SLF",
+    "SIM",
+    "TID",
+    "ARG",
+    "PTH",
+    "PGH",
+    "TRY",
+    "RUF",
+]
