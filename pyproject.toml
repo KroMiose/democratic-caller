@@ -18,6 +18,7 @@ pyinstaller = {version = "^6.5.0", source = "tsinghua"}
 pyautogui = {version = "^0.9.54", source = "tsinghua"}
 keyboard = {version = "^0.13.5", source = "tsinghua"}
 pywin32 = {version = "^306", source = "tsinghua"}
+psutil = "^5.9.8"
 
 
 [tool.poetry.scripts]

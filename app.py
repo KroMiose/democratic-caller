@@ -1,3 +1,4 @@
+import contextlib
 import sys
 from asyncio import Task
 from pathlib import Path
@@ -10,6 +11,7 @@ from fastapi.staticfiles import StaticFiles
 
 from src.api import api
 from src.logger import logger
+from src.utils.common import close_process_by_port
 from src.utils.ip_utils import get_local_lan_ip
 
 app = FastAPI(
@@ -53,6 +55,10 @@ app.add_event_handler("shutdown", stop_event)
 
 
 def main():
+    # 关闭占用的端口的进程
+    with contextlib.suppress(Exception):
+        close_process_by_port(52380)
+
     uvicorn.run(
         app="app:app",
         host="0.0.0.0",
