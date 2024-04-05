@@ -3,7 +3,7 @@
         "id": "240f54d5d9da8e788e1e1f59a77b272c",
         "name": "Reinforce",
         "name_zh": "增援",
-        "icon": "https://helldivers.wiki.gg/images/5/5c/Reinforce_Stratagem_Icon.png",
+        "icon": "/icon/70299bcd9e63b6e678b725347461232a.png",
         "short_name_zh": "增援",
         "short_code": "wsdaw",
         "spell_seq": [
@@ -18,7 +18,7 @@
         "id": "f408bbf833b09f18898efa609a00046b",
         "name": "SoS Beacon",
         "name_zh": "S.O.S求援信标",
-        "icon": "https://helldivers.wiki.gg/images/3/3d/SOS_Beacon_Stratagem_Icon.png",
+        "icon": "/icon/15c31a9f358c77a27b4316ca28f569c4.png",
         "short_name_zh": "S.O.S求援信标",
         "short_code": "wsdw",
         "spell_seq": [
@@ -32,7 +32,7 @@
         "id": "30a410d7775acfdb7f0f828e7ee6da91",
         "name": "Hellbomb",
         "name_zh": "地狱火炸弹",
-        "icon": "https://helldivers.wiki.gg/images/a/a0/Hellbomb_Stratagem_Icon.png",
+        "icon": "/icon/7e0fe1ce9c061f4e4b6f3b2e497cd258.png",
         "short_name_zh": "地狱火炸弹",
         "short_code": "swaswdsw",
         "spell_seq": [
@@ -50,7 +50,7 @@
         "id": "c8972ad2138142019629f1396e68dbad",
         "name": "MG-43 Machine Gun",
         "name_zh": "MG-43 机枪",
-        "icon": "https://helldivers.wiki.gg/images/e/e0/Machine_Gun_Stratagem_Icon.png",
+        "icon": "/icon/0456c2d80efa0cead62db23b0b5d6b78.png",
         "short_name_zh": "机枪",
         "short_code": "saswd",
         "spell_seq": [
@@ -65,7 +65,7 @@
         "id": "1cd491ecc5ca381cf62c2c62b6057878",
         "name": "APW-1 Anti-Materiel Rifle",
         "name_zh": "APW-1 反器材步枪",
-        "icon": "https://helldivers.wiki.gg/images/3/3c/Anti-Materiel_Rifle_Stratagem_Icon.png",
+        "icon": "/icon/277a488400d2fdee32e1877228448f6d.png",
         "short_name_zh": "反器材步枪",
         "short_code": "sadws",
         "spell_seq": [
@@ -80,7 +80,7 @@
         "id": "026997801701a792b6467da4e23d7da5",
         "name": "M-105 Stalwart",
         "name_zh": "M-105 盟友",
-        "icon": "https://helldivers.wiki.gg/images/4/46/Stalwart_Stratagem_Icon.png",
+        "icon": "/icon/5aa174c1ad281e427ac9fbb4cc78a255.png",
         "short_name_zh": "盟友",
         "short_code": "saswwa",
         "spell_seq": [
@@ -96,7 +96,7 @@
         "id": "2daf6753f58ef571698efa98c973175e",
         "name": "EAT-17 Expendable Anti-Tank",
         "name_zh": "EAT-17 消耗性反坦克武器",
-        "icon": "https://helldivers.wiki.gg/images/1/1c/Expendable_Anti-Tank_Stratagem_Icon.png",
+        "icon": "/icon/fa54875b4971bee9fb78d7d84ae4492f.png",
         "short_name_zh": "消耗性反坦克武器",
         "short_code": "ssawd",
         "spell_seq": [
@@ -111,7 +111,7 @@
         "id": "c0f5a71ad831c0b44376f1b0c5a8fce1",
         "name": "GR-8 Recoilless Rifle",
         "name_zh": "GR-8 无后座力步枪",
-        "icon": "https://helldivers.wiki.gg/images/7/70/Recoilless_Rifle_Stratagem_Icon.png",
+        "icon": "/icon/b04d4a301cbecd39fb962259ff96dcf7.png",
         "short_name_zh": "无后座力步枪",
         "short_code": "sadda",
         "spell_seq": [
@@ -126,7 +126,7 @@
         "id": "a247f05ba1b5cdca0b56af92c27ca6a2",
         "name": "FLAM-40 Flamethrower",
         "name_zh": "FLAM-40 火焰喷射器",
-        "icon": "https://helldivers.wiki.gg/images/7/75/Flamethrower_Stratagem_Icon.png",
+        "icon": "/icon/9038c4035a7bfb2fd81db310ab647320.png",
         "short_name_zh": "火焰喷射器",
         "short_code": "sawsw",
         "spell_seq": [
@@ -141,7 +141,7 @@
         "id": "63100690d62bdbf63b44d09d7b17c951",
         "name": "AC-8 Autocannon",
         "name_zh": "AC-8 机炮",
-        "icon": "https://helldivers.wiki.gg/images/e/ef/Autocannon_Stratagem_Icon.png",
+        "icon": "/icon/bcb322951e10961efed73da6914e6f50.png",
         "short_name_zh": "机炮",
         "short_code": "saswwd",
         "spell_seq": [
@@ -157,7 +157,7 @@
         "id": "a51fa933b3a16a990d7e51ec9b3d41b2",
         "name": "MG-206 Heavy Machine Gun",
         "name_zh": "MG-206 重机枪",
-        "icon": "https://helldivers.wiki.gg/images/d/d9/Heavy_Machine_Gun_Stratagem_Icon.png",
+        "icon": "/icon/14507d3c0aa0dd0122448d0d18b860b2.png",
         "short_name_zh": "重机枪",
         "short_code": "sawss",
         "spell_seq": [
@@ -172,7 +172,7 @@
         "id": "a65c5db847075288267623b8b4b48ac5",
         "name": "RS-422 Railgun",
         "name_zh": "RS-422 磁轨炮",
-        "icon": "https://helldivers.wiki.gg/images/3/35/Railgun_Stratagem_Icon.png",
+        "icon": "/icon/6e4316685c91281c0ec525c3558e271f.png",
         "short_name_zh": "磁轨炮",
         "short_code": "sdswad",
         "spell_seq": [
@@ -188,7 +188,7 @@
         "id": "c4dd40c23ab4f1c8c068f22f2106de23",
         "name": "FAF-14 Spear",
         "name_zh": "FAF-14 飞矛",
-        "icon": "https://helldivers.wiki.gg/images/5/54/Spear_Stratagem_Icon.png",
+        "icon": "/icon/9de5195b3ea1628041110084a3b9618d.png",
         "short_name_zh": "飞矛",
         "short_code": "sswss",
         "spell_seq": [
@@ -203,7 +203,7 @@
         "id": "f06b9fe841cf07fd435a39875616d075",
         "name": "Orbital Gatling Barrage",
         "name_zh": "轨道加特林火力网",
-        "icon": "https://helldivers.wiki.gg/images/f/f6/Orbital_Gatling_Barrage_Stratagem_Icon.png",
+        "icon": "/icon/bd0149dc667fe1695a5ab2ffb7d65dae.png",
         "short_name_zh": "轨道加特林火力网",
         "short_code": "dsaww",
         "spell_seq": [
@@ -218,7 +218,7 @@
         "id": "3118fce6640383d4a443d81c257aa2c8",
         "name": "Orbital Airburst Strike",
         "name_zh": "轨道空爆攻击",
-        "icon": "https://helldivers.wiki.gg/images/2/28/Orbital_Airburst_Strike_Stratagem_Icon.png",
+        "icon": "/icon/0d33011ba6aaceaff4c8cf8638a280ba.png",
         "short_name_zh": "轨道空爆攻击",
         "short_code": "ddd",
         "spell_seq": [
@@ -231,7 +231,7 @@
         "id": "fa492c6e21d5ecf513f902f7cabd4294",
         "name": "Orbital 120mm HE Barrage",
         "name_zh": "轨道120MM高爆弹火力网",
-        "icon": "https://helldivers.wiki.gg/images/4/40/Orbital_120mm_HE_Barrage_Stratagem_Icon.png",
+        "icon": "/icon/a5ab3a557aab76789976707bc669fbac.png",
         "short_name_zh": "轨道120MM高爆弹火力网",
         "short_code": "dssasdss",
         "spell_seq": [
@@ -249,7 +249,7 @@
         "id": "96590e8e7fef0bad1b71622dc09138f6",
         "name": "Orbital 380mm HE Barrage",
         "name_zh": "轨道380MM高爆弹火力网",
-        "icon": "https://helldivers.wiki.gg/images/1/12/Orbital_380mm_HE_Barrage_Stratagem_Icon.png",
+        "icon": "/icon/e213a602407ae6d2bd6a3e1aa86881cc.png",
         "short_name_zh": "轨道380MM高爆弹火力网",
         "short_code": "dswwass",
         "spell_seq": [
@@ -266,7 +266,7 @@
         "id": "53f89aa2b8e4be4217a2577fad332b31",
         "name": "Orbital Walking Barrage",
         "name_zh": "轨道游走火力网",
-        "icon": "https://helldivers.wiki.gg/images/5/53/Orbital_Walking_Barrage_Stratagem_Icon.png",
+        "icon": "/icon/4557b12c5e65a50cfedbbc9d0707ddba.png",
         "short_name_zh": "轨道游走火力网",
         "short_code": "dsdsds",
         "spell_seq": [
@@ -282,7 +282,7 @@
         "id": "0bd5bf46312553f857f91058e195726a",
         "name": "Orbital Laser",
         "name_zh": "轨道激光炮",
-        "icon": "https://helldivers.wiki.gg/images/d/d8/Orbital_Laser_Stratagem_Icon.png",
+        "icon": "/icon/648717e2d234d34b3b4101c4ca534df4.png",
         "short_name_zh": "轨道激光炮",
         "short_code": "dswds",
         "spell_seq": [
@@ -297,7 +297,7 @@
         "id": "a797cd566962fa6d8b8c4fe08131a89b",
         "name": "Orbital Railcannon Strike",
         "name_zh": "轨道炮攻击",
-        "icon": "https://helldivers.wiki.gg/images/6/6f/Orbital_Railcannon_Strike_Stratagem_Icon.png",
+        "icon": "/icon/2dde823996114a1ce00cd756deb1435c.png",
         "short_name_zh": "轨道炮攻击",
         "short_code": "dwssd",
         "spell_seq": [
@@ -312,7 +312,7 @@
         "id": "0eb3fa3536320f3504e70ffc44776e35",
         "name": "Eagle Strafing Run",
         "name_zh": "\"飞鹰\"机枪扫射",
-        "icon": "https://helldivers.wiki.gg/images/f/f3/Eagle_Strafing_Run_Stratagem_Icon.png",
+        "icon": "/icon/4ef99f698f1350659c8c36a2c612f9b9.png",
         "short_name_zh": "\"飞鹰\"机枪扫射",
         "short_code": "wdd",
         "spell_seq": [
@@ -325,7 +325,7 @@
         "id": "7a4740fd5ae0945495ebc837ae105bed",
         "name": "Eagle Airstrike",
         "name_zh": "\"飞鹰\"空袭",
-        "icon": "https://helldivers.wiki.gg/images/7/72/Eagle_Airstrike_Stratagem_Icon.png",
+        "icon": "/icon/994fa5659419f33925e6989d3054cf38.png",
         "short_name_zh": "\"飞鹰\"空袭",
         "short_code": "wdsd",
         "spell_seq": [
@@ -339,7 +339,7 @@
         "id": "5cb9f6d9bf50f3a3ee45429779c30b9f",
         "name": "Eagle Cluster Bomb",
         "name_zh": "\"飞鹰\"集束炸弹",
-        "icon": "https://helldivers.wiki.gg/images/4/4f/Eagle_Cluster_Bomb_Stratagem_Icon.png",
+        "icon": "/icon/f53ca5584589f89343b7740922efd37d.png",
         "short_name_zh": "\"飞鹰\"集束炸弹",
         "short_code": "wdssd",
         "spell_seq": [
@@ -354,7 +354,7 @@
         "id": "7d1f49942389be5d4e881af826e49b30",
         "name": "Eagle Napalm Airstrike",
         "name_zh": "\"飞鹰\"凝固汽油弹空袭",
-        "icon": "https://helldivers.wiki.gg/images/4/42/Eagle_Napalm_Airstrike_Stratagem_Icon.png",
+        "icon": "/icon/343c43c6c6319662ba215cb878b23889.png",
         "short_name_zh": "\"飞鹰\"凝固汽油弹空袭",
         "short_code": "wdsw",
         "spell_seq": [
@@ -368,7 +368,7 @@
         "id": "085deef557649c4a5fe69ec5a66fad79",
         "name": "Lift-850 Jump Pack",
         "name_zh": "喷射背包",
-        "icon": "https://helldivers.wiki.gg/images/f/f5/Jump_Pack_Stratagem_Icon.png",
+        "icon": "/icon/e7d3b310254825454931dae7c4276a6e.png",
         "short_name_zh": "喷射背包",
         "short_code": "swwsw",
         "spell_seq": [
@@ -383,7 +383,7 @@
         "id": "4a0736e7edb545e24320eb11b2dbf3ec",
         "name": "Eagle Smoke Strike",
         "name_zh": "\"飞鹰\"烟雾攻击",
-        "icon": "https://helldivers.wiki.gg/images/0/05/Eagle_Smoke_Strike_Stratagem_Icon.png",
+        "icon": "/icon/b976fcdf761107ee3279401451e80044.png",
         "short_name_zh": "\"飞鹰\"烟雾攻击",
         "short_code": "wdws",
         "spell_seq": [
@@ -397,7 +397,7 @@
         "id": "47573454fb1427e3b3dfad9cb637ff26",
         "name": "Eagle 110mm Rocket Pods",
         "name_zh": "\"飞鹰\"110MM火箭巢",
-        "icon": "https://helldivers.wiki.gg/images/e/ef/Eagle_110mm_Rocket_Pods_Stratagem_Icon.png",
+        "icon": "/icon/18d47cb5e76af8ac79a6c4aa678ffef3.png",
         "short_name_zh": "\"飞鹰\"110MM火箭巢",
         "short_code": "wdwa",
         "spell_seq": [
@@ -411,7 +411,7 @@
         "id": "95da125a1f54dd98914dcb5f0d5c0eed",
         "name": "Eagle 500kg Bomb",
         "name_zh": "\"飞鹰\"500KG炸弹",
-        "icon": "https://helldivers.wiki.gg/images/e/e5/Eagle_500kg_Bomb_Stratagem_Icon.png",
+        "icon": "/icon/49579ac1cc7580769dc9b361641ca0c3.png",
         "short_name_zh": "\"飞鹰\"500KG炸弹",
         "short_code": "wdsss",
         "spell_seq": [
@@ -426,7 +426,7 @@
         "id": "f377e115122b2d4a31225d1cccf96c10",
         "name": "Orbital Precision Strike",
         "name_zh": "轨道精准攻击",
-        "icon": "https://helldivers.wiki.gg/images/2/2a/Orbital_Precision_Strike_Stratagem_Icon.png",
+        "icon": "/icon/1290808ab28133fcabea904edf404de3.png",
         "short_name_zh": "轨道精准攻击",
         "short_code": "ddw",
         "spell_seq": [
@@ -439,7 +439,7 @@
         "id": "23705382a6f39bc8127a3f3a4b09d5e6",
         "name": "Orbital Gas Strike",
         "name_zh": "轨道毒气攻击",
-        "icon": "https://helldivers.wiki.gg/images/c/cd/Orbital_Gas_Strike_Stratagem_Icon.png",
+        "icon": "/icon/f724d9ed179680384a1a534933981ba6.png",
         "short_name_zh": "轨道毒气攻击",
         "short_code": "ddsd",
         "spell_seq": [
@@ -453,7 +453,7 @@
         "id": "100b2ac7ccf2b6e38d27403bbb94dea4",
         "name": "Orbital EMS Strike",
         "name_zh": "轨道电磁冲击波攻击",
-        "icon": "https://helldivers.wiki.gg/images/1/16/Orbital_EMS_Strike_Stratagem_Icon.png",
+        "icon": "/icon/6ce9e80b4fa0048021c8f62db299ff36.png",
         "short_name_zh": "轨道电磁冲击波攻击",
         "short_code": "ddas",
         "spell_seq": [
@@ -467,7 +467,7 @@
         "id": "03290d3a2ff6958ed19beb2cef189b7f",
         "name": "Orbital Smoke Strike",
         "name_zh": "轨道烟雾攻击",
-        "icon": "https://helldivers.wiki.gg/images/b/bc/Orbital_Smoke_Strike_Stratagem_Icon.png",
+        "icon": "/icon/3d40bf4c71c4454df0dda4b4ea488960.png",
         "short_name_zh": "轨道烟雾攻击",
         "short_code": "ddsw",
         "spell_seq": [
@@ -481,7 +481,7 @@
         "id": "dba4ef7b3fa3c23cc3bf4c2978a363d7",
         "name": "E/MG-101 HMG Emplacement",
         "name_zh": "重机枪部署支架",
-        "icon": "https://helldivers.wiki.gg/images/0/03/HMG_Emplacement_Stratagem_Icon.png",
+        "icon": "/icon/2243ce45b0fe1bbade4747ffb19d17fd.png",
         "short_name_zh": "重机枪部署支架",
         "short_code": "swadda",
         "spell_seq": [
@@ -497,7 +497,7 @@
         "id": "c3fd4b036517730ec8e981937e922eaf",
         "name": "FX-12 Shield Generator Relay",
         "name_zh": "防护罩生成中继器",
-        "icon": "https://helldivers.wiki.gg/images/e/e4/Shield_Generator_Relay_Stratagem_Icon.png",
+        "icon": "/icon/a945fdf114b840825dca0b3b30bd7b7a.png",
         "short_name_zh": "防护罩生成中继器",
         "short_code": "ssadad",
         "spell_seq": [
@@ -513,7 +513,7 @@
         "id": "1e736a6eb1465a3f1584443a0ce99ec1",
         "name": "A/ARC-3 Tesla Tower",
         "name_zh": "特斯拉塔",
-        "icon": "https://helldivers.wiki.gg/images/8/8f/Tesla_Tower_Stratagem_Icon.png",
+        "icon": "/icon/8e5be4201fe2698f3f02f3efc97142d0.png",
         "short_name_zh": "特斯拉塔",
         "short_code": "swdwad",
         "spell_seq": [
@@ -529,7 +529,7 @@
         "id": "2311a3668e50931c7f02662bd8afac82",
         "name": "MD-6 Anti-Personnel Minefield",
         "name_zh": "反步兵雷区",
-        "icon": "https://helldivers.wiki.gg/images/b/bb/Anti-Personnel_Minefield_Stratagem_Icon.png",
+        "icon": "/icon/e6985e12caa3d6e9b0de1dd7a74015ef.png",
         "short_name_zh": "反步兵雷区",
         "short_code": "sawd",
         "spell_seq": [
@@ -543,7 +543,7 @@
         "id": "44edbd7957e1cd1160e7a76ec800f76b",
         "name": "B-1 Supply Pack",
         "name_zh": "补给背包",
-        "icon": "https://helldivers.wiki.gg/images/6/61/Supply_Pack_Stratagem_Icon.png",
+        "icon": "/icon/58548c7fca7370c5ab531159445959a7.png",
         "short_name_zh": "补给背包",
         "short_code": "saswwd",
         "spell_seq": [
@@ -559,7 +559,7 @@
         "id": "cf9df754789b58408930fc61b5783659",
         "name": "GL-21 Grenade Launcher",
         "name_zh": "榴弹发射器",
-        "icon": "https://helldivers.wiki.gg/images/c/cf/Grenade_Launcher_Stratagem_Icon.png",
+        "icon": "/icon/bcf0edba3bc6d37fba642cf7b23ab1cd.png",
         "short_name_zh": "榴弹发射器",
         "short_code": "sawas",
         "spell_seq": [
@@ -574,7 +574,7 @@
         "id": "021de531b6e5eb17a5ef773f0010f562",
         "name": "LAS-98 Laser Cannon",
         "name_zh": "激光大炮",
-        "icon": "https://helldivers.wiki.gg/images/c/c3/Laser_Cannon_Stratagem_Icon.png",
+        "icon": "/icon/cb259eec0edc8d979b2e9c8e06ecc83e.png",
         "short_name_zh": "激光大炮",
         "short_code": "saswa",
         "spell_seq": [
@@ -589,7 +589,7 @@
         "id": "cc4a3e8b7113a3709680cdbfe1da36fd",
         "name": "MD-I4 Incendiary Mines",
         "name_zh": "燃烧地雷",
-        "icon": "https://helldivers.wiki.gg/images/a/a9/Incendiary_Minefield_Stratagem_Icon.png",
+        "icon": "/icon/54fc9a72001e8f6c4d99ce59d39acdf1.png",
         "short_name_zh": "燃烧地雷",
         "short_code": "saas",
         "spell_seq": [
@@ -603,7 +603,7 @@
         "id": "f666aee8b92b15cb864a91da2b82a11f",
         "name": "AX/LAS-5 \"Guard Dog\" Rover",
         "name_zh": "\"护卫犬\"漫游车",
-        "icon": "https://helldivers.wiki.gg/images/6/6f/Guard_Dog_Rover_Stratagem_Icon.png",
+        "icon": "/icon/35e33827c7081fac3b3f749f8bc10c38.png",
         "short_name_zh": "\"护卫犬\"漫游车",
         "short_code": "swawdd",
         "spell_seq": [
@@ -619,7 +619,7 @@
         "id": "07eea737322bdd8cd3586fc1f67eeaaa",
         "name": "SH-20 Ballistic Shield Backpack",
         "name_zh": "防弹护盾背包",
-        "icon": "https://helldivers.wiki.gg/images/3/37/Ballistic_Shield_Backpack_Stratagem_Icon.png",
+        "icon": "/icon/76c8047aac81d7ddef0a3321347d2a04.png",
         "short_name_zh": "防弹护盾背包",
         "short_code": "sasswa",
         "spell_seq": [
@@ -635,7 +635,7 @@
         "id": "a293f93a38140a23e7db40ec3cca0738",
         "name": "ARC-3 Arc Thrower",
         "name_zh": "电弧发射器",
-        "icon": "https://helldivers.wiki.gg/images/1/10/Arc_Thrower_Stratagem_Icon.png",
+        "icon": "/icon/c661cbb71c85823131c5a3ddf35299d0.png",
         "short_name_zh": "电弧发射器",
         "short_code": "sdswaa",
         "spell_seq": [
@@ -651,7 +651,7 @@
         "id": "09f3455a79e6ee69799492e009a0352c",
         "name": "LAS-99 Quasar Cannon",
         "name_zh": "类星体加农炮",
-        "icon": "https://helldivers.wiki.gg/images/8/87/Quasar_Cannon_Stratagem_Icon.png",
+        "icon": "/icon/6f6009dfacd8f43a272d2457298479c8.png",
         "short_name_zh": "类星体加农炮",
         "short_code": "sswad",
         "spell_seq": [
@@ -666,7 +666,7 @@
         "id": "117ef55cc7e14d58fe089394a055d351",
         "name": "SH-32 Shield Generator Pack",
         "name_zh": "防护罩生成包",
-        "icon": "https://helldivers.wiki.gg/images/9/99/Shield_Generator_Pack_Stratagem_Icon.png",
+        "icon": "/icon/4ffdb90a3cadaeaac74e201fd80ef780.png",
         "short_name_zh": "防护罩生成包",
         "short_code": "swadad",
         "spell_seq": [
@@ -682,7 +682,7 @@
         "id": "0d2199a4cfd01a307c7baf3459879957",
         "name": "A/MG-43 Machine Gun Sentry",
         "name_zh": "哨戒机枪",
-        "icon": "https://helldivers.wiki.gg/images/5/5a/Machine_Gun_Sentry_Stratagem_Icon.png",
+        "icon": "/icon/fcf0dac639fdc4bccfc1edbd72241313.png",
         "short_name_zh": "哨戒机枪",
         "short_code": "swddw",
         "spell_seq": [
@@ -697,7 +697,7 @@
         "id": "f1f4b4c5c47168d2b89d658a3f0515db",
         "name": "A/G-16 Gatling Sentry",
         "name_zh": "加特林哨戒炮",
-        "icon": "https://helldivers.wiki.gg/images/2/28/Gatling_Sentry_Stratagem_Icon.png",
+        "icon": "/icon/64e9c00deea25a736f059d8f3b74198a.png",
         "short_name_zh": "加特林哨戒炮",
         "short_code": "swda",
         "spell_seq": [
@@ -711,7 +711,7 @@
         "id": "96d6418fe8bf58c51ea108d984cb1053",
         "name": "A/M-12 Mortar Sentry",
         "name_zh": "迫击哨戒炮",
-        "icon": "https://helldivers.wiki.gg/images/a/ad/Mortar_Sentry_Stratagem_Icon.png",
+        "icon": "/icon/8c59d9de15f89dfff957ef7c9b9c5fe0.png",
         "short_name_zh": "迫击哨戒炮",
         "short_code": "swdds",
         "spell_seq": [
@@ -726,7 +726,7 @@
         "id": "a0cbf7e75196ab95b323646057f03e81",
         "name": "AX/AR-23 \"Guard Dog\"",
         "name_zh": "\"护卫犬\"",
-        "icon": "https://helldivers.wiki.gg/images/7/73/Guard_Dog_Stratagem_Icon.png",
+        "icon": "/icon/5ddbbfb5824d71a7b7585a0c7be70224.png",
         "short_name_zh": "\"护卫犬\"",
         "short_code": "swawds",
         "spell_seq": [
@@ -742,7 +742,7 @@
         "id": "036cd30e50362c922a393786edc37a4e",
         "name": "A/AC-8 Autocannon Sentry",
         "name_zh": "自动哨戒炮",
-        "icon": "https://helldivers.wiki.gg/images/a/a7/Autocannon_Sentry_Stratagem_Icon.png",
+        "icon": "/icon/c885b6205bf10be41dd836547e0293f2.png",
         "short_name_zh": "自动哨戒炮",
         "short_code": "swdwaw",
         "spell_seq": [
@@ -758,7 +758,7 @@
         "id": "4740cb1944070e226cdf37c455b1f156",
         "name": "A/MLS-4X Rocket Sentry",
         "name_zh": "火箭哨戒炮",
-        "icon": "https://helldivers.wiki.gg/images/6/62/Rocket_Sentry_Stratagem_Icon.png",
+        "icon": "/icon/1b6239607081e9814c502869984a2a1a.png",
         "short_name_zh": "火箭哨戒炮",
         "short_code": "swdda",
         "spell_seq": [
@@ -773,7 +773,7 @@
         "id": "c844a27ebadcd58d9731f849109a17c8",
         "name": "A/M-23 EMS Mortar Sentry",
         "name_zh": "电磁冲击波迫击哨戒炮",
-        "icon": "https://helldivers.wiki.gg/images/a/a8/AM-23_EMS_Mortar_Sentry_Stratagem_Icon.png",
+        "icon": "/icon/00a8c0cfa3985f239d1c0670736963dc.png",
         "short_name_zh": "电磁冲击波迫击哨戒炮",
         "short_code": "swdsd",
         "spell_seq": [
@@ -788,7 +788,7 @@
         "id": "d971d9ecc23a14f3bd6659b8c11e8438",
         "name": "EXO-45 Patriot Exosuit",
         "name_zh": "\"爱国者\"外骨骼装甲",
-        "icon": "https://helldivers.wiki.gg/images/3/30/EXO-45_Patriot_Exosuit_Stratagem_Icon.png",
+        "icon": "/icon/ac66fe8ffcdbd43e2287ed81c994fb4a.png",
         "short_name_zh": "\"爱国者\"外骨骼装甲",
         "short_code": "asdwass",
         "spell_seq": [

@@ -401,7 +401,7 @@ def main():
         icon = stratagem["icon"]
         if not Path(f"./static/icon/{md5_url}.{suffix}").exists():
             print(f"downloading {icon}")
-            url = f"{icon}"
+            url = icon
             r = requests.get(
                 url,
                 headers={
@@ -416,5 +416,6 @@ def main():
             )
             with open(f"./static/icon/{md5_url}.{suffix}", "wb") as f:  # noqa: PTH123
                 f.write(r.content)
+        stratagem["icon"] = f"/icon/{md5_url}.{suffix}"
     with open("./static/stratagem.json", "w", encoding="utf-8") as f:  # noqa: PTH123
         f.write(json.dumps(STRATAGEM_LIST, ensure_ascii=False, indent=4))
