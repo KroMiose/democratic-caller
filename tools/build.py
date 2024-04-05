@@ -17,7 +17,7 @@ def main():
             shutil.rmtree(folder_path)
 
     # 构建
-    os.system("poetry run pyinstaller --onefile --hidden-import app app.py")
+    os.system("poetry run pyinstaller --onefile --hidden-import app app.py -n DemocraticCaller")
 
     # 复制 static 文件夹到 dist 文件夹
     os.system("xcopy /s /y static dist\\static")
