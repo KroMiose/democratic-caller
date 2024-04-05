@@ -6,7 +6,15 @@
 
 ![intro](docs/images/intro.png)
 
-## 使用方式
+在 PC 上启动服务后，可使用 手机/平板 访问 `http://{你的 PC 局域网 IP}:52380/` 来呼叫支援
+
+## 使用方式 (EXE 运行)
+
+> 注意: 应用不保证 100% 有效，在一些系统环境中可能需要反复重启应用多次才能生效，或者尝试使用源码运行，暂不明确原因，如有大佬愿帮助完善，欢迎 PR
+
+通过 [Release](https://github.com/KroMiose/democratic-caller/releases/latest) 下载最新应用包解压以管理员权限运行 `DemocraticCaller.exe`
+
+## 使用方式 (源码运行)
 
 > 环境准备: [Python 3.10](https://www.python.org/downloads/release/python-3100/)
 
@@ -45,4 +53,4 @@ poetry run app
 poetry run build
 ```
 
-打包后右键使用管理员权限运行 `dist/app.exe` 即可
+打包后右键使用管理员权限运行 `dist/DemocraticCaller.exe` 即可
