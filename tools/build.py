@@ -22,4 +22,4 @@ def main():
     # 复制 static 文件夹到 dist 文件夹
     os.system("xcopy /s /y static dist\\static")
 
-    print("构建完成, 应用已输出到 dist 文件夹, 请使用管理员权限运行 app.exe")
+    print("构建完成, 应用已输出到 dist 文件夹, 请使用管理员权限运行 DemocraticCaller.exe")
